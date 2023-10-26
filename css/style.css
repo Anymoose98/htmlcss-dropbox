@@ -29,7 +29,7 @@
 
 
 .border{
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 
@@ -59,6 +59,10 @@
     padding-top:50px;
 }
 
+.gap-20{
+    gap: 20px;
+}
+
 
 
 /* riga */
@@ -85,23 +89,25 @@
     height: 300px;
 }
 
-.colonna-70{
-    width: 70%;
-    height: 300px;
+.colonna-33{
+    width: calc((100% / 3) - 15px);
+    height: 400px;
+    background-color: blue;
 }
 
 .colonna-50{
     width: 50%;
 }
 
+.colonna-70{
+    width: 70%;
+    height: 300px;
+}
+
 .colonna-100{
     width: 100%;
 }
 
-.colonna-100-test{
-    width: 100%;
-    height: 100px;
-}
 
 
 /* background colori */
@@ -135,6 +141,7 @@ header{
     width: 100%;
     z-index: 1;
     top: 0;
+    background-color: white;
 }
 
 #logo{
