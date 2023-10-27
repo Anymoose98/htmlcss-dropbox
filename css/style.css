@@ -32,7 +32,19 @@
     border: 1px solid grey;
 }
 
+.border-bottom{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
 
+ul{
+    list-style-type: none;
+}
+
+.text-center{
+    width: 100%;
+    text-align: center;
+}
 /* margini e padding*/
 
 .margin-destra-20{
@@ -41,6 +53,10 @@
 
 .margin-sinistra-20{
     margin-left: 20px;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;
 }
 
 .margin-bottom-20{
@@ -53,6 +69,10 @@
 
 .margin-top-200{
     margin-top: 200px;
+}
+
+.padding-10{
+    padding: 10px;
 }
 
 .padding-top-50{
@@ -91,8 +111,7 @@
 
 .colonna-33{
     width: calc((100% / 3) - 15px);
-    height: 400px;
-    background-color: blue;
+    min-height: 700px;
 }
 
 .colonna-50{
@@ -132,6 +151,10 @@
     font-size: 40px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 
 /* Header */
 header{
@@ -153,6 +176,7 @@ header{
     background-color: blue;
     color: white;
     padding: 5px;
+    border: 0px;
 }
 
 
@@ -178,4 +202,8 @@ header{
 }
 #foto-section-1{
     width: 800px;
+}
+
+.larghezza-hr-piccola{
+    width: 20%;
 }
