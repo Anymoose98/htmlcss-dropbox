@@ -45,6 +45,10 @@ ul{
     width: 100%;
     text-align: center;
 }
+
+.text-end{
+    text-align: end;
+}
 /* margini e padding*/
 
 .margin-destra-20{
@@ -106,7 +110,6 @@ ul{
 /* colonna */
 .colonna-30{
     width: 30%;
-    height: 300px;
 }
 
 .colonna-33{
@@ -120,11 +123,17 @@ ul{
 
 .colonna-70{
     width: 70%;
-    height: 300px;
 }
 
 .colonna-100{
     width: 100%;
+}
+
+.colonna-100-piccola{
+    width: 100%;
+   min-height: 100px;
+    
+
 }
 
 
