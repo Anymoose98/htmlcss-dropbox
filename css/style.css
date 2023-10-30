@@ -49,6 +49,12 @@ ul{
 .text-end{
     text-align: end;
 }
+
+.larghezza-100{
+    width: 100%;
+    
+    
+}
 /* margini e padding*/
 
 .margin-destra-20{
@@ -77,6 +83,10 @@ ul{
 
 .padding-10{
     padding: 10px;
+}
+
+.padding-30{
+    padding: 30px;
 }
 
 .padding-top-50{
@@ -112,6 +122,10 @@ ul{
     width: 30%;
 }
 
+.colonna-30-gap20{
+    width: calc(30% - 20px);
+}
+
 .colonna-33{
     width: calc((100% / 3) - 15px);
     min-height: 700px;
@@ -125,15 +139,12 @@ ul{
     width: 70%;
 }
 
-.colonna-100{
-    width: 100%;
+.colonna-70-gap20{
+    width: calc(70% - 20px);
 }
 
-.colonna-100-piccola{
+.colonna-100{
     width: 100%;
-   min-height: 100px;
-    
-
 }
 
 
@@ -154,6 +165,10 @@ ul{
 /* testo */
 .larger{
     font-size: larger;
+}
+
+.font-size-18{
+    font-size: 18px;
 }
 
 .font-size-40{
@@ -215,4 +230,14 @@ header{
 
 .larghezza-hr-piccola{
     width: 20%;
+}
+
+
+/* secion 3 */
+
+.bottone-bianco{
+    background-color: white;
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 18px;
 }
