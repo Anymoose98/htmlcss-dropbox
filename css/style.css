@@ -52,9 +52,12 @@ ul{
 
 .larghezza-100{
     width: 100%;
-    
-    
 }
+
+.max-width-100{
+    max-width: 100%;
+}
+
 /* margini e padding*/
 
 .margin-destra-20{
@@ -253,7 +256,10 @@ header{
     font-size: 18px;
 }
 
+/* Secion scacchiera */
 
-.max-width-100{
-    max-width: 100%;
+.quadrati{
+    background-color: blueviolet;
+    width: 50%;
+    height: calc(100vw / 6);
 }
