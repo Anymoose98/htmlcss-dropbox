@@ -124,8 +124,6 @@ ul{
 
 .colonna-33-20gap{
     width: calc(33% - 20px);
-    height: 300px;
-    background-color: blue;
 }
 
 .colonna-40-gap20{
@@ -248,7 +246,14 @@ header{
     font-size: 18px;
 }
 
-#foto-section-3{
-    width: 100%;
+.bottone-bianco{
+    background-color: white;
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 18px;
+}
 
+
+.max-width-100{
+    max-width: 100%;
 }
