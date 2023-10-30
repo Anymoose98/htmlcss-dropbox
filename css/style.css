@@ -134,6 +134,11 @@ ul{
 }
 
 .colonna-33{
+    width: calc(100% / 3);
+   
+}
+
+.colonna-33-min-height{
     width: calc((100% / 3) - 15px);
     min-height: 700px;
 }
