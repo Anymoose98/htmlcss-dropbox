@@ -166,7 +166,33 @@ ul{
     background-color: rgb(68, 131, 189);
 }
 
+.bg-marrone{
+    background-color: rgb(97, 8, 43);
+}
 
+.bg-azzurro{
+    background-color: rgb(0,147,206);
+}
+
+.bg-rosso{
+    background-color: rgb(255, 28, 28);
+}
+
+.bg-rosso-scuro{
+    background-color: rgb(213, 0, 31);
+}
+
+.bg-celeste-chiaro{
+    background-color: rgb(180, 208, 231);
+}
+
+.bg-blu{
+    background-color: rgb(13, 36, 129);
+}
+
+.bg-giallo{
+    background-color: rgb(255, 216, 48);
+}
 
 /* colori */
 .grigio{
@@ -267,4 +293,8 @@ header{
     background-color: blueviolet;
     width: 50%;
     height: calc(100vw / 6);
+}
+
+.loghi{
+    
 }
