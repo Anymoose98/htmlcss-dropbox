@@ -122,6 +122,12 @@ ul{
     width: 30%;
 }
 
+.colonna-33-20gap{
+    width: calc(33% - 20px);
+    height: 300px;
+    background-color: blue;
+}
+
 .colonna-40-gap20{
     width: calc(40% - 20px);
 }
