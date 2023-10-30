@@ -23,6 +23,10 @@
     height: 100%;
 }
 
+.height-300{
+    height: 300px;
+}
+
 .inline-block{
     display: inline-block;
 }
@@ -145,7 +149,6 @@ ul{
 
 .colonna-50{
     width: 50%;
-    height: 300px;
 }
 
 .colonna-70{
@@ -206,6 +209,10 @@ ul{
 /* colori */
 .grigio{
     color:rgb(179, 169, 169)
+}
+
+.marrone{
+    color: rgb(97, 8, 43);
 }
 
 
