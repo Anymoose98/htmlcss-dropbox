@@ -194,6 +194,14 @@ ul{
     background-color: rgb(255, 216, 48);
 }
 
+.bg-grigio{
+    background-color: rgb(245, 245, 245);
+}
+
+.bg-verde{
+    background-color: rgb(162, 211, 155);
+}
+
 /* colori */
 .grigio{
     color:rgb(179, 169, 169)
@@ -295,6 +303,18 @@ header{
     height: calc(100vw / 6);
 }
 
+.contenitore-logo{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+}
+
 .loghi{
-    
+    width: 80%;
+    filter: invert(100%);
+}
+
+.logo{
+    width: 60%;
 }
