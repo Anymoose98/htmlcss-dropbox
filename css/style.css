@@ -122,8 +122,8 @@ ul{
     width: 30%;
 }
 
-.colonna-30-gap20{
-    width: calc(30% - 20px);
+.colonna-40-gap20{
+    width: calc(40% - 20px);
 }
 
 .colonna-33{
@@ -139,8 +139,8 @@ ul{
     width: 70%;
 }
 
-.colonna-70-gap20{
-    width: calc(70% - 20px);
+.colonna-60-gap20{
+    width: calc(60% - 20px);
 }
 
 .colonna-100{
@@ -209,7 +209,7 @@ header{
 
 .contenitore-grande{
     width: 100%;
-    height: 550px;
+    height: 620px;
     margin-top: 50px;
 }
 
@@ -240,4 +240,9 @@ header{
     border: solid black 1px;
     padding: 5px;
     font-size: 18px;
+}
+
+#foto-section-3{
+    width: 100%;
+
 }
