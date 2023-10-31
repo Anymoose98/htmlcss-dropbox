@@ -156,6 +156,10 @@ ul{
     width: calc(100% / 3);
    
 }
+.colonna-33-quadrato{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
 
 .colonna-33-min-height{
     width: calc((100% / 3) - 15px);
@@ -298,7 +302,7 @@ header{
     width: 100%;
 }
 #foto-section-1{
-    width: 800px;
+    width: 100%;
 }
 
 .larghezza-hr-piccola{
